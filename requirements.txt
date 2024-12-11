@@ -1,0 +1,7 @@
+annotated-types==0.7.0
+click==8.1.7
+fastapi==0.115.6
+pydantic==2.10.3
+pydantic_core==2.27.1
+starlette==0.41.3
+uvicorn==0.32.1
