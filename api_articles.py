@@ -23,3 +23,10 @@ async def create_article(article: Article):
     new_id = max(articles.keys()) + 1
     articles[new_id] = article.model_dump()
     return article
+
+@app.post("/info/")
+async def info(article: Article):
+    return {
+        "version": "0.1"
+    }
+
